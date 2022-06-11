@@ -1,0 +1,16 @@
+{
+  "name": "eip2929-withdraw-fix",
+  "version": "1.0.0",
+  "description": "Fix eip-2929 with eip-2930 so transfer eth with gnosis safe works again.",
+  "main": "./src/withdraw.js",
+  "scripts": {
+    "run": "node ./src/withdraw.js"
+  },
+  "author": "none",
+  "license": "ISC",
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^2.0.5",
+    "ethers": "^5.2.0",
+    "web3": "^1.7.3"
+  }
+}
