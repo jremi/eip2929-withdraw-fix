@@ -10,6 +10,6 @@ For our situation we needed to run `withdraw()` on our smart contract that would
 
 Look at [./src/withdraw.js](./src/withdraw.js) for a complete example.
 
-**NOTE:** You must set `./src/wallet.txt` with your projects smart contract owner account For example: `0xc61088C04186e68eA3E61D60F13DF15A2b2eC599` 12 word seed phrase mnemonic to make the `withdraw.js` script authorize the transaction.
+**NOTE:** You must set `./src/wallet.txt` with your projects smart contract owner account 12 word seed phrase mnemonic to make the `withdraw.js` script authorize the transaction.
 
 > Original source was taken from https://github.com/folia-app/eip-2929
